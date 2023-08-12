@@ -1580,6 +1580,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -1594,6 +1595,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -2914,6 +2916,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -2928,6 +2931,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -4248,6 +4252,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -4262,6 +4267,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -5583,6 +5589,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -5597,6 +5604,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -6921,6 +6929,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -6935,6 +6944,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -8256,6 +8266,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButton.Text = ""
                         ComboOptionButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                         ComboOptionButton.TextSize = 14.000
+                        ComboOptionButton.ZIndex = 504
 
                         ComboOptionButtonText.Name = "ComboOptionButtonText"
                         ComboOptionButtonText.Parent = ComboOptionButton
@@ -8270,6 +8281,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
+                        ComboOptionButtonText.ZIndex = 504
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
