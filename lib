@@ -1126,7 +1126,7 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -1510,6 +1510,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -1525,6 +1526,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -1541,6 +1543,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -2457,7 +2460,7 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -2841,6 +2844,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -2856,6 +2860,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -2872,6 +2877,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -3788,7 +3794,7 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -4172,6 +4178,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -4187,6 +4194,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -4203,6 +4211,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -5120,7 +5129,7 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -5504,6 +5513,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -5519,6 +5529,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -5535,6 +5546,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -6452,7 +6464,7 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -6839,6 +6851,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -6854,6 +6867,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -6870,6 +6884,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -7786,7 +7801,8 @@ function library:NewWindow(Name, UserName, Duration)
 
                     ColorPickerColorIndicator.Name = "ColorPickerColorIndicator"
                     ColorPickerColorIndicator.Parent = ColorPickerHolder
-                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbb, rgbg)
+
+                    ColorPickerColorIndicator.BackgroundColor3 = Color3.fromRGB(rgbr, rgbg, rgbb)
                     ColorPickerColorIndicator.BorderColor3 = Color3.fromRGB(0, 0, 0)
                     ColorPickerColorIndicator.BorderSizePixel = 0
                     ColorPickerColorIndicator.Position = UDim2.new(0.810276687, 0, 0, 0)
@@ -8170,6 +8186,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownBox.Position = UDim2.new(0.0039682542, 0, 1.4193548, 0)
                     ComboDownBox.Size = UDim2.new(0, 252, 0, 85)
                     ComboDownBox.Visible = false
+                    ComboDownBox.ZIndex = 500
 
                     ComboDownBoxCorner.CornerRadius = UDim.new(0, 4)
                     ComboDownBoxCorner.Name = "ComboDownBoxCorner"
@@ -8185,6 +8202,7 @@ function library:NewWindow(Name, UserName, Duration)
                     ComboDownItemHolder.Position = UDim2.new(0, 0, 0.0646965504, 0)
                     ComboDownItemHolder.Size = UDim2.new(0, 251, 0, 74)
                     ComboDownItemHolder.ScrollBarThickness = 5
+                    ComboDownItemHolder.ZIndex = 501
 
                     ComboDownItemListLayout.Name = "ComboDownItemListLayout"
                     ComboDownItemListLayout.Parent = ComboDownItemHolder
@@ -8201,6 +8219,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
+                    TextButton.ZIndex = 502
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
