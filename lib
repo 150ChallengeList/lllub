@@ -1595,7 +1595,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -1616,7 +1616,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
@@ -2931,7 +2931,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -2952,7 +2952,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
@@ -4267,7 +4267,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -4288,7 +4288,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
@@ -5604,7 +5604,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -5625,7 +5625,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
@@ -6944,7 +6944,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -6965,7 +6965,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
@@ -8281,7 +8281,7 @@ function library:NewWindow(Name, UserName, Duration)
                         ComboOptionButtonText.TextColor3 = Color3.fromRGB(155, 154, 157)
                         ComboOptionButtonText.TextSize = 16.000
                         ComboOptionButtonText.TextXAlignment = Enum.TextXAlignment.Left
-                        ComboOptionButtonText.ZIndex = 504
+                        ComboOptionButtonText.ZIndex = 510
 
                         local callbacktext = ComboOptionButtonText.Text
                         local state = list[tableIndex]
@@ -8302,7 +8302,7 @@ function library:NewWindow(Name, UserName, Duration)
                     end
 
                     ComboIndicatorText.Text = list[tableIndex]
-                    TextButton.ZIndex = 5
+                    
                     TextButton.MouseButton1Down:Connect(function()
                         if ComboDownBox.Visible == false then
                             ComboDownBox.Visible = true
