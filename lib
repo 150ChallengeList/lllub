@@ -1543,7 +1543,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -2879,7 +2879,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -4215,7 +4215,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -5552,7 +5552,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -6892,7 +6892,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
@@ -8229,7 +8229,7 @@ function library:NewWindow(Name, UserName, Duration)
                     TextButton.Text = ""
                     TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
                     TextButton.TextSize = 14.000
-                    TextButton.ZIndex = 502
+
 
                     ComboDownBoxStroke.Name = "PageButtonBackgroundStroke"
                     ComboDownBoxStroke.Parent = ComboDownBox
